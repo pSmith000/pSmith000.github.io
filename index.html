@@ -12,18 +12,16 @@
     border-radius: 20px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
-    width: 15%;
   }
   .img2{
     display: block;
     border-radius: 20px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 0px;
-    width: 15%;
   }
   .header{
     color:#1a171d;
@@ -64,19 +62,20 @@
     margin-bottom: 0px;
     margin-top: 25px;
     text-align: center;
-    
+    text-shadow: 2px 2px 0px #1A171D;
   }
   .title1:hover{
     color: cornflowerblue;
   }
   .title2{
     font-size: 50px;
-    color: ivory;
+    color: #1A171D;
     font-weight: bold;
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 0px;
     text-align: center;
+    text-shadow: 2px 2px 0px ivory;
   }
   .title2:hover{
     color: cornflowerblue;
@@ -95,12 +94,15 @@
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
+    text-shadow: 2px 2px 0px #1A171D;
   }
   .textbox2{
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 20px;
+    text-shadow: 2px 2px 0px ivory;
     text-align: center;
+    color: #1A171D;
   }
 body {
   
@@ -109,6 +111,53 @@ body {
   margin: 0px;
   padding: 0px;
 
+}
+.boxed1{
+  border: 3px solid #7d8293;
+  background-color: #4060ca75;
+  background-image: url(https://img.itch.zone/aW1hZ2UvMjEwNTc1My8xMjQxMzgzMy5wbmc=/347x500/5MDYfr.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80rem;
+  height: 30rem;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  position:relative;
+  filter: blur(5px);
+  z-index: -100;
+}
+.boxed2{
+  border: 3px solid #7d8293;
+  background-color: #4060ca75;
+  background-image: url(https://img.itch.zone/aW1hZ2UvMTU3NTg2Ni85MjE2Njc1LnBuZw==/347x500/oijMc0.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80rem;
+  height: 30rem;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding: 10px;
+  position:relative;
+  filter: blur(5px);
+  z-index: -100;
+  
+}
+.project1{
+  position: absolute;
+  top: 400px;
+  left: 470px;
+}
+.project2{
+  position: absolute;
+  top: 980px;
+  left: 470px;
 }
 </style>
 
@@ -142,6 +191,10 @@ body {
   </p>
 </body>
 
+<div class="boxed1">
+</div>
+
+<div class="project1">
 <div>
   <img class="img1" src="https://img.itch.zone/aW1nLzEyNDE1MjI0LnBuZw==/315x250%23c/qhFNQd.png" Height = 200px alt="">
 </div>
@@ -155,7 +208,12 @@ body {
   project.
 </p>
 </div>
+</div>
 
+
+<div class="boxed2">
+</div>
+<div class="project2">
 <div>
   <img class="img2" src="https://img.itch.zone/aW1nLzkyMTY3MDMucG5n/original/YgQSlQ.png" Height = 200px alt="">
 </div>
@@ -167,5 +225,6 @@ body {
     that chase you down that you must destroy using either your regular fire rate or with powerups. I
     <br>worked on the player movement, the soundtrack, and the powerups.
   </p>
+</div>
 </body>
 </html>
