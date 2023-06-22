@@ -1,230 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Peyton Smith Portfolio</title>
+  <title>Peyton Smith Portfolio</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-  .img1{
-    display: block;
-    border-radius: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-  .img2{
-    display: block;
-    border-radius: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-  .header{
-    color:#1a171d;
-    background-color: #7d8293;
-    padding: 1%;
-    text-align: center;
-  }
-  hr{
-    color: #7d8293;
-  }
-  p{
-    color: aliceblue;
-    font-weight: bold;
-  }
-  .link{
-    font-size: 25px;
-    margin-left: 20px;
-    margin-right: 40px;
-  }
-  .link:link{
-    color: #7d8293;
-    text-decoration: none;
-  }
-  .link:visited{
-    color: gray;
-  }
-  .link:hover{
-    color:ivory;
-  }
-  .link:active{
-    color:cornflowerblue;
-  }
-  .title1{
-    font-size: 50px;
-    font-weight: bold;
-    color: ivory;
-    text-decoration: none;
-    margin-bottom: 0px;
-    margin-top: 25px;
-    text-align: center;
-    text-shadow: 2px 2px 0px #1A171D;
-  }
-  .title1:hover{
-    color: cornflowerblue;
-  }
-  .title2{
-    font-size: 50px;
-    color: #1A171D;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-align: center;
-    text-shadow: 2px 2px 0px ivory;
-  }
-  .title2:hover{
-    color: cornflowerblue;
-  }
-  .tabs{
-    text-align: center;
-    margin-top: 7px;
-  }
-  .projects{
-    font-size: 60px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-  .textbox1{
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: center;
-    text-shadow: 2px 2px 0px #1A171D;
-  }
-  .textbox2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    text-shadow: 2px 2px 0px ivory;
-    text-align: center;
-    color: #1A171D;
-  }
-body {
-  
-  background-color: #1a171d;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
-  padding: 0px;
+  <style>
+    .img1 {
+      display: block;
+      border-radius: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
 
-}
-.boxed1{
-  border: 3px solid #7d8293;
-  background-color: #4060ca75;
-  background-image: url(https://img.itch.zone/aW1hZ2UvMjEwNTc1My8xMjQxMzgzMy5wbmc=/347x500/5MDYfr.png);
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80rem;
-  height: 30rem;
-  border-radius: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 10px;
-  position:relative;
-  filter: blur(5px);
-  z-index: -100;
-}
-.boxed2{
-  border: 3px solid #7d8293;
-  background-color: #4060ca75;
-  background-image: url(https://img.itch.zone/aW1hZ2UvMTU3NTg2Ni85MjE2Njc1LnBuZw==/347x500/oijMc0.png);
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80rem;
-  height: 30rem;
-  border-radius: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  padding: 10px;
-  position:relative;
-  filter: blur(5px);
-  z-index: -100;
-  
-}
-.project1{
-  position: absolute;
-  top: 400px;
-  left: 470px;
-}
-.project2{
-  position: absolute;
-  top: 980px;
-  left: 470px;
-}
-</style>
+    .img2 {
+      display: block;
+      border-radius: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+    .header {
+      color: #1a171d;
+      background-color: #7d8293;
+      padding: 1%;
+      text-align: center;
+    }
+
+    hr {
+      color: #7d8293;
+    }
+
+    p {
+      color: aliceblue;
+      font-weight: bold;
+    }
+
+    .link {
+      font-size: 25px;
+      margin-left: 20px;
+      margin-right: 40px;
+    }
+
+    .link:link {
+      color: #7d8293;
+      text-decoration: none;
+    }
+
+    .link:visited {
+      color: gray;
+    }
+
+    .link:hover {
+      color: ivory;
+    }
+
+    .link:active {
+      color: cornflowerblue;
+    }
+
+    .title1 {
+      font-size: 50px;
+      font-weight: bold;
+      color: ivory;
+      text-decoration: none;
+      margin-bottom: 0px;
+      margin-top: 25px;
+      text-align: center;
+      text-shadow: 2px 2px 0px #1A171D;
+    }
+
+    .title1:hover {
+      color: cornflowerblue;
+    }
+
+    .title2 {
+      font-size: 50px;
+      color: #1A171D;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      text-align: center;
+      text-shadow: 2px 2px 0px ivory;
+    }
+
+    .title2:hover {
+      color: cornflowerblue;
+    }
+
+    .tabs {
+      text-align: center;
+      margin-top: 7px;
+    }
+
+    .projects {
+      font-size: 60px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    .textbox1 {
+      margin-top: 20px;
+      font-size: 20px;
+      text-align: center;
+      text-shadow: 2px 2px 0px #1A171D;
+    }
+
+    .textbox2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 20px;
+      text-shadow: 2px 2px 0px ivory;
+      text-align: center;
+      color: #1A171D;
+    }
+
+    body {
+
+      background-color: #1a171d;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      padding: 0px;
+
+    }
+
+    .boxed1 {
+      border: 3px solid #7d8293;
+      background-color: #4060ca75;
+      background-image: url(https://img.itch.zone/aW1hZ2UvMjEwNTc1My8xMjQxMzgzMy5wbmc=/347x500/5MDYfr.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 80rem;
+      height: 40rem;
+      margin-bottom: -40rem;
+      border-radius: 10px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 10px;
+      position: relative;
+      filter: blur(5px);
+      z-index: -100;
+    }
+
+    .boxed2 {
+      border: 3px solid #7d8293;
+      background-color: #4060ca75;
+      background-image: url(https://img.itch.zone/aW1hZ2UvMTU3NTg2Ni85MjE2Njc1LnBuZw==/347x500/oijMc0.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 80rem;
+      height: 40rem;
+      margin-bottom: -40rem;
+      border-radius: 10px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 70px;
+      padding: 10px;
+      position: relative;
+      filter: blur(5px);
+      z-index: -100;
+
+    }
+
+    .project1 {
+      top: 400px;
+      left: 470px;
+    }
+
+    .project2 {
+      top: 980px;
+      left: 470px;
+    }
+  </style>
 
 </head>
 
 
 
 
-<body>
+<body style="display: flex; flex-direction: column; justify-content: center;">
 
-<div class="header">
-  <h1>Peyton Smith</h1>
-  <h2>Video Game Programmer</h2>
-</div>
+  <div class="header">
+    <h1>Peyton Smith</h1>
+    <h2>Video Game Programmer</h2>
+  </div>
 
-<div class="tabs">
-<a class="link" target="_blank" rel="noopener noreferrer" href="Resume.pdf">Resume</a>
-<a class="link" target="_blank" href="https://github.com/pSmith000">Github</a>
-<a class="link" target="_blank" href="https://www.linkedin.com/in/peyton-smith-680602240/">LinkedIn</a>
-<a class="link" target="_blank" href="https://linktr.ee/pesmith">Linktree</a>
-</div>
+  <div class="tabs">
+    <a class="link" target="_blank" rel="noopener noreferrer" href="Resume.pdf">Resume</a>
+    <a class="link" target="_blank" href="https://github.com/pSmith000">Github</a>
+    <a class="link" target="_blank" href="https://www.linkedin.com/in/peyton-smith-680602240/">LinkedIn</a>
+    <a class="link" target="_blank" href="https://linktr.ee/pesmith">Linktree</a>
+  </div>
 
-<hr size="5";
-    color="#7d8293";
-    >
-    
-<body>
-  <br>
-  <p class="projects">
-    PROJECTS
-  </p>
+  <hr style="width: 100%" color="#7d8293">
+
+  <div>
+    <br>
+    <p class="projects">
+      PROJECTS
+    </p>
+  </div>
+
+  <div style="margin-bottom: 10%;">
+    <div class="boxed1"></div>
+    <div class="project1">
+      <div>
+        <img class="img1" src="https://img.itch.zone/aW1nLzEyNDE1MjI0LnBuZw==/315x250%23c/qhFNQd.png" Height=200px
+          alt="">
+      </div>
+      <div class="title1">
+        <a class="title1" target="_blank" href="https://skylineshredder.itch.io/skyline-shredder">Skyline<br>
+          Shredder</a>
+      </div>
+      <div class="textbox1">
+        <p>This is a third-person momentum based parkour game that has you racing around a city
+          completing <br>time trials in the fastest time possible. I worked on the base parkour movement mechanics,
+          the<br> grinding system, the radio system, the entirety of the custom soundtrack, and was the lead
+          designer<br> on the
+          project.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 20%">
+    <div class="boxed2">
+    </div>
+    <div class="project2">
+      <div>
+        <img class="img2" src="https://img.itch.zone/aW1nLzkyMTY3MDMucG5n/original/YgQSlQ.png" Height=200px alt="">
+      </div>
+      <div class="title2">
+        <a class="title2" target="_blank" href="https://paperblaster.itch.io/paper-blaster">Paper<br>Blaster</a>
+      </div>
+      <p class="textbox2">This is an arcade style game playing as a paper airplane. You move with boosters on the back
+        of
+        the
+        <br>airplane while dodging and shooting the paper "asteroids" that float around. There are also stickers<br>
+        that chase you down that you must destroy using either your regular fire rate or with powerups. I
+        <br>worked on the player movement, the soundtrack, and the powerups.
+      </p>
+    </div>
+  </div>
 </body>
 
-<div class="boxed1">
-</div>
-
-<div class="project1">
-<div>
-  <img class="img1" src="https://img.itch.zone/aW1nLzEyNDE1MjI0LnBuZw==/315x250%23c/qhFNQd.png" Height = 200px alt="">
-</div>
-<div class="title1">
-<a class="title1" target="_blank" href="https://skylineshredder.itch.io/skyline-shredder">Skyline<br> Shredder</a>
-</div>
-<div class="textbox1">
-<p>This is a third-person momentum based parkour game that has you racing around a city
-  completing <br>time trials in the fastest time possible. I worked on the base parkour movement mechanics,
-  the<br> grinding system, the radio system, the entirety of the custom soundtrack, and was the lead designer<br> on the 
-  project.
-</p>
-</div>
-</div>
-
-
-<div class="boxed2">
-</div>
-<div class="project2">
-<div>
-  <img class="img2" src="https://img.itch.zone/aW1nLzkyMTY3MDMucG5n/original/YgQSlQ.png" Height = 200px alt="">
-</div>
-<div class="title2">
-<a class="title2" target="_blank" href="https://paperblaster.itch.io/paper-blaster">Paper<br>Blaster</a>
-</div>
-  <p class="textbox2">This is an arcade style game playing as a paper airplane. You move with boosters on the back of the 
-    <br>airplane while dodging and shooting the paper "asteroids" that float around. There are also stickers<br>
-    that chase you down that you must destroy using either your regular fire rate or with powerups. I
-    <br>worked on the player movement, the soundtrack, and the powerups.
-  </p>
-</div>
-</body>
 </html>
